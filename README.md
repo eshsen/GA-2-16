@@ -1,1 +1,1 @@
-# GA-2-16
+# GA-2-16 (frequency analysis)
