@@ -10,3 +10,7 @@
       ```
 2. Убедитесь, что у вас установлен matplotlib (предмет зависимости в requirements.txt)
 ## Использование
+Запустите скрипт:
+```
+python frequancy_analysis.py filename --top_n --encoding --max_len --save_path
+```
