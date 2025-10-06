@@ -20,3 +20,8 @@ python frequancy_analysis.py filename --top_n --encoding --max_len --save_path
    - --encoding - кодировка файла (по умолчанию utf-8)
    - --max_len - максимальная длина текста в символах
    - --save_path - базовый путь для сохранения графиков (если указан, графики сохраняются в два файла: name_abs.png, name_norm.png, иначе графики выводятся на экран)
+## Пример работы
+```
+python frequency-analysis.py --top_n 10 --max_len 50000 --save_path graphic
+```
+Сохранит график абсолютной частоты в graphic_abs.png, а график нормированной частоты в graphic_norm.png
