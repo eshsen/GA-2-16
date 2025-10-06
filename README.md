@@ -24,4 +24,6 @@ python frequancy_analysis.py filename --top_n --encoding --max_len --save_path
 ```
 python frequency-analysis.py test_ru.txt --top_n 10 --max_len 50000 --save_path graphic
 ```
-Сохранит график абсолютной частоты в graphic_abs.png, а график нормированной частоты в graphic_norm.png
+Сохранит график абсолютной частоты в graphic_abs.png, а график нормированной частоты в graphic_norm.png  
+![](https://github.com/eshsen/GA-2-16/blob/main/graphic_abs.png)
+![](https://github.com/eshsen/GA-2-16/blob/main/graphic_norm.png)
