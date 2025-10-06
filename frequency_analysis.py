@@ -175,7 +175,7 @@ def normalize_frequencies(fdist, total_words):
     return {word: count / total_words for word, count in fdist.items()}
 
 
-def plot_frequencies(freqs, title, top_n=10, log_scale=False, n=0, save_path=None, index_offset=0):
+def plot_frequencies(freqs, title, top_n=10, log_scale=False, n=0, save_path=None):
     """
     Строит столбчатую диаграмму с топ-N слов по частоте.
 
@@ -193,8 +193,6 @@ def plot_frequencies(freqs, title, top_n=10, log_scale=False, n=0, save_path=Non
         Смещение для подписей над столбцами, чтоб текст не накладывался (по умолчанию 0).
     save_path : str или None, optional
         Путь для сохранения графика (если None – показ графика).
-    index_offset : int, optional
-        Смещение по индексу для построения (по умолчанию 0).
     """
     if not freqs:
         return
@@ -265,3 +263,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
